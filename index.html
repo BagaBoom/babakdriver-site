@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="Big Fish AS is a Norway-based mobile application and game developer.">
+  <meta property="og:title" content="Big Fish AS — Mobile Apps & Games">
+  <meta property="og:description" content="Independent mobile application and game development by Big Fish AS.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://babakdriver.xyz/">
+  <link rel="canonical" href="https://babakdriver.xyz/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Big Fish AS — Mobile Apps & Games</title>
+  <style>
+    :root {
+      --bg: #07111f;
+      --bg-2: #0b1b2e;
+      --card: rgba(13, 31, 51, .78);
+      --card-strong: rgba(15, 37, 61, .94);
+      --text: #f6fbff;
+      --muted: #a8bad0;
+      --line: rgba(255,255,255,.10);
+      --blue: #50d9ff;
+      --violet: #9b82ff;
+      --green: #89f1c4;
+      --shadow: 0 28px 90px rgba(0,0,0,.35);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 12% 10%, rgba(80,217,255,.17), transparent 30%),
+        radial-gradient(circle at 88% 12%, rgba(155,130,255,.16), transparent 32%),
+        radial-gradient(circle at 52% 96%, rgba(137,241,196,.08), transparent 34%),
+        linear-gradient(155deg, #050b14 0%, var(--bg) 48%, #0a192b 100%);
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; }
+    .shell { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 24px 0;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 850;
+      letter-spacing: .01em;
+    }
+
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      background: linear-gradient(145deg, var(--blue), var(--violet));
+      color: #06111e;
+      box-shadow: 0 14px 40px rgba(80,217,255,.2);
+      font-weight: 950;
+    }
+
+    .nav-links { display: flex; align-items: center; gap: 24px; }
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: .94rem;
+    }
+    .nav-links a:hover { color: var(--text); }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      align-items: center;
+      gap: 64px;
+      min-height: 690px;
+      padding: 70px 0 100px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 8px 12px;
+      border: 1px solid rgba(80,217,255,.23);
+      border-radius: 999px;
+      background: rgba(80,217,255,.08);
+      color: #c9f6ff;
+      font-size: .82rem;
+      font-weight: 800;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 18px var(--green);
+    }
+
+    h1 {
+      margin: 24px 0 24px;
+      max-width: 760px;
+      font-size: clamp(3.4rem, 8vw, 6.8rem);
+      line-height: .92;
+      letter-spacing: -.065em;
+    }
+
+    .gradient {
+      background: linear-gradient(100deg, #ffffff 4%, var(--blue) 48%, #c8baff 94%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-copy {
+      max-width: 650px;
+      color: var(--muted);
+      font-size: 1.12rem;
+      line-height: 1.78;
+    }
+
+    .actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+    .button {
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 20px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 820;
+      transition: transform .2s ease, border-color .2s ease, background .2s ease;
+    }
+    .button:hover { transform: translateY(-2px); }
+    .button.primary {
+      color: #06111e;
+      border-color: transparent;
+      background: linear-gradient(135deg, var(--blue), #c2f7ff);
+      box-shadow: 0 18px 42px rgba(80,217,255,.2);
+    }
+    .button.secondary { background: rgba(255,255,255,.045); }
+
+    .visual { position: relative; min-height: 500px; display: grid; place-items: center; }
+    .orb {
+      position: absolute;
+      width: 440px;
+      height: 440px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(80,217,255,.22), rgba(155,130,255,.09) 48%, transparent 72%);
+      filter: blur(10px);
+    }
+
+    .studio-card {
+      position: relative;
+      width: min(410px, 92vw);
+      min-height: 430px;
+      padding: 28px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 32px;
+      background: linear-gradient(155deg, rgba(18,43,70,.96), rgba(7,17,31,.97));
+      box-shadow: var(--shadow);
+      transform: rotate(2deg);
+    }
+
+    .studio-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(115deg, transparent 25%, rgba(255,255,255,.07) 48%, transparent 67%);
+      transform: translateX(-100%);
+      animation: shine 6s ease-in-out infinite;
+    }
+    @keyframes shine { 55%, 100% { transform: translateX(120%); } }
+
+    .card-top { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .mini-mark {
+      width: 60px;
+      height: 60px;
+      display: grid;
+      place-items: center;
+      border-radius: 20px;
+      background: linear-gradient(145deg, var(--blue), var(--violet));
+      color: #07111f;
+      font-size: 1.15rem;
+      font-weight: 950;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 11px;
+      border: 1px solid rgba(137,241,196,.23);
+      border-radius: 999px;
+      background: rgba(137,241,196,.07);
+      color: #c9ffeb;
+      font-size: .8rem;
+      font-weight: 800;
+    }
+
+    .studio-card h2 { margin: 46px 0 14px; font-size: 2.6rem; letter-spacing: -.045em; }
+    .studio-card p { margin: 0; color: var(--muted); line-height: 1.7; }
+    .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+    .chip {
+      padding: 9px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,.045);
+      color: #d9e7f5;
+      font-size: .86rem;
+      font-weight: 700;
+    }
+
+    .mini-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 30px; }
+    .mini-panel {
+      padding: 15px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+    }
+    .mini-label { color: var(--muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; }
+    .mini-value { margin-top: 6px; font-weight: 850; }
+
+    .section { padding: 84px 0; }
+    .section-head { max-width: 720px; margin-bottom: 34px; }
+    .section-kicker { color: var(--blue); font-size: .78rem; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; }
+    .section h2 { margin: 10px 0 12px; font-size: clamp(2rem, 5vw, 3.2rem); letter-spacing: -.045em; }
+    .section-head p { margin: 0; color: var(--muted); line-height: 1.76; }
+
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .card {
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--card);
+      box-shadow: 0 18px 50px rgba(0,0,0,.14);
+    }
+    .card-icon {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      background: linear-gradient(145deg, rgba(80,217,255,.18), rgba(155,130,255,.16));
+      color: var(--blue);
+      font-size: 1.28rem;
+      font-weight: 900;
+    }
+    .card h3 { margin: 0 0 10px; font-size: 1.17rem; }
+    .card p { margin: 0; color: var(--muted); line-height: 1.66; }
+
+    .company {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 28px;
+      padding: 36px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: linear-gradient(145deg, var(--card-strong), rgba(8,20,35,.9));
+      box-shadow: 0 24px 70px rgba(0,0,0,.18);
+    }
+    .company p { color: var(--muted); line-height: 1.76; }
+    .contact-list { display: grid; gap: 12px; }
+    .contact-item {
+      padding: 15px 16px;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 15px;
+      background: rgba(255,255,255,.04);
+    }
+    .contact-label { margin-bottom: 5px; color: var(--muted); font-size: .76rem; letter-spacing: .08em; text-transform: uppercase; }
+    .contact-value { font-weight: 760; overflow-wrap: anywhere; }
+
+    footer { margin-top: 70px; border-top: 1px solid var(--line); }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 28px 0 40px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .footer-links { display: flex; gap: 18px; }
+    .footer-links a { color: var(--muted); text-decoration: none; }
+    .footer-links a:hover { color: var(--text); }
+
+    @media (max-width: 900px) {
+      .hero, .company { grid-template-columns: 1fr; }
+      .hero { min-height: auto; padding-top: 48px; }
+      .visual { min-height: 480px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 620px) {
+      .shell { width: min(100% - 28px, 1120px); }
+      .nav-links a:not(:last-child) { display: none; }
+      .hero { gap: 34px; padding-bottom: 68px; }
+      .visual { min-height: 430px; }
+      .studio-card { min-height: 395px; padding: 22px; }
+      .company { padding: 24px; }
+      .footer-inner { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="shell nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="Big Fish AS home">
+        <span class="brand-mark">BF</span>
+        <span>Big Fish AS</span>
+      </a>
+      <div class="nav-links">
+        <a href="#services">What we do</a>
+        <a href="#company">Company</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="shell hero">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Mobile development studio</div>
+        <h1><span class="gradient">Apps built for clear, enjoyable experiences.</span></h1>
+        <p class="hero-copy">Big Fish AS is a Norway-based developer focused on mobile applications and games. We create approachable digital products with thoughtful design, reliable performance, and responsive user support.</p>
+        <div class="actions">
+          <a class="button primary" href="mailto:shoeluvr19@gmail.com">Contact Big Fish AS</a>
+          <a class="button secondary" href="#company">Company details</a>
+        </div>
+      </div>
+
+      <div class="visual" aria-hidden="true">
+        <div class="orb"></div>
+        <div class="studio-card">
+          <div class="card-top">
+            <div class="mini-mark">BF</div>
+            <div class="status"><span class="dot"></span> Active studio</div>
+          </div>
+          <h2>Big Fish AS</h2>
+          <p>Independent mobile development with a focus on simple interaction, dependable delivery, and long-term product support.</p>
+          <div class="chips">
+            <span class="chip">Mobile apps</span>
+            <span class="chip">Casual games</span>
+            <span class="chip">Product support</span>
+          </div>
+          <div class="mini-grid">
+            <div class="mini-panel">
+              <div class="mini-label">Based in</div>
+              <div class="mini-value">Oslo, Norway</div>
+            </div>
+            <div class="mini-panel">
+              <div class="mini-label">Platform</div>
+              <div class="mini-value">Android</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section" id="services">
+      <div class="section-head">
+        <div class="section-kicker">What we do</div>
+        <h2>Focused mobile products</h2>
+        <p>We combine product thinking, practical engineering, and clean visual design to create applications that are easy to understand and comfortable to use.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="card-icon">01</div>
+          <h3>Mobile applications</h3>
+          <p>Purposeful Android experiences designed around clear navigation, reliable behavior, and accessible interfaces.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">02</div>
+          <h3>Casual games</h3>
+          <p>Lightweight entertainment products with simple controls, quick sessions, and polished moment-to-moment interaction.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">03</div>
+          <h3>Ongoing support</h3>
+          <p>Maintenance, user communication, policy updates, and product improvements after publication.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="shell section" id="company">
+      <div class="company">
+        <div>
+          <div class="section-kicker">Company</div>
+          <h2>About Big Fish AS</h2>
+          <p>Big Fish AS develops and supports mobile software for users across international markets. We value straightforward products, responsible data practices, and clear communication with users and platform partners.</p>
+          <p>For business, support, privacy, or legal questions, use the contact information listed here.</p>
+        </div>
+        <div class="contact-list" id="contact">
+          <div class="contact-item">
+            <div class="contact-label">Legal name</div>
+            <div class="contact-value">Big Fish AS</div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-label">Address</div>
+            <div class="contact-value">c/o Magnus Moholdt<br>Skiferveien 27<br>1151 Oslo<br>Norway</div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-label">Email</div>
+            <div class="contact-value"><a href="mailto:shoeluvr19@gmail.com">shoeluvr19@gmail.com</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-label">Phone</div>
+            <div class="contact-value"><a href="tel:+447352954981">+44 7352 954981</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <div>© 2026 Big Fish AS. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="/privacy.html">Website Privacy Policy</a>
+        <a href="mailto:shoeluvr19@gmail.com">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

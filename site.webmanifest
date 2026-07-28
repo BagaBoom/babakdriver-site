@@ -1,0 +1,9 @@
+{
+  "name": "Big Fish AS",
+  "short_name": "Big Fish AS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#08111f",
+  "icons": []
+}
