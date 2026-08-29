@@ -1,0 +1,54 @@
+{
+  "engine_enabled": true,
+  "interstitial_every_n_actions": 3,
+  "interstitial_min_interval_sec": 60,
+  "interstitial_min_watch_sec": 3,
+  "rewarded_min_watch_sec": 5,
+  "creatives": [
+    {
+      "id": "test_interstitial_video",
+      "format": "video",
+      "placements": ["interstitial", "rewarded"],
+      "media_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image_url": "https://placehold.co/720x1280/0A0A12/FFFFFF/png?text=House+Ad+Test",
+      "title": "Тестовий house ad",
+      "body": "Це публічне тестове відео — перевірка показу/аналітики",
+      "cta_text": "Грати ще раз",
+      "bundle_id": "com.galax.towerrush.games",
+      "store_url": "https://play.google.com/store/apps/details?id=com.galax.towerrush.games",
+      "weight": 10,
+      "active_from_epoch": 0,
+      "active_to_epoch": 0
+    },
+    {
+      "id": "test_store_fallback",
+      "format": "image",
+      "placements": ["interstitial"],
+      "media_url": "",
+      "image_url": "https://placehold.co/720x1280/1A1A2E/FFFFFF/png?text=Store+Fallback+Test",
+      "title": "Тест переходу в Google Play",
+      "body": "bundle_id навмисно не встановлений на тестовому пристрої",
+      "cta_text": "Відкрити в Play",
+      "bundle_id": "com.google.android.apps.maps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps",
+      "weight": 5,
+      "active_from_epoch": 0,
+      "active_to_epoch": 0
+    },
+    {
+      "id": "test_banner",
+      "format": "image",
+      "placements": ["banner"],
+      "media_url": "",
+      "image_url": "https://placehold.co/728x90/0A0A12/FFFFFF/png?text=Banner+Test",
+      "title": "Тест банера",
+      "body": "",
+      "cta_text": "Відкрити",
+      "bundle_id": "com.galax.towerrush.games",
+      "store_url": "https://play.google.com/store/apps/details?id=com.galax.towerrush.games",
+      "weight": 5,
+      "active_from_epoch": 0,
+      "active_to_epoch": 0
+    }
+  ]
+}
