@@ -15,7 +15,7 @@
       "body": "CTA має відкрити Play Store шторкою знизу",
       "cta_text": "Встановити",
       "bundle_id": "com.spotify.music",
-      "store_url": "https://play.google.com/store/apps/details?id=com.spotify.music",
+      "store_url": "https://play.google.com/store/apps/details?id=io.sweet.bonza.towerrush.play",
       "weight": 10,
       "active_from_epoch": 0,
       "active_to_epoch": 0
@@ -30,7 +30,7 @@
       "body": "Навмисно веде у вашу ж гру — тому клік просто лишить вас у ній без видимих змін, це очікувано",
       "cta_text": "Відкрити",
       "bundle_id": "com.galax.towerrush.games",
-      "store_url": "https://play.google.com/store/apps/details?id=com.galax.towerrush.games",
+      "store_url": "https://play.google.com/store/apps/details?id=io.sweet.bonza.towerrush.play",
       "weight": 5,
       "active_from_epoch": 0,
       "active_to_epoch": 0
@@ -45,7 +45,7 @@
       "body": "",
       "cta_text": "Встановити",
       "bundle_id": "com.spotify.music",
-      "store_url": "https://play.google.com/store/apps/details?id=com.spotify.music",
+      "store_url": "https://play.google.com/store/apps/details?id=io.sweet.bonza.towerrush.play",
       "weight": 5,
       "active_from_epoch": 0,
       "active_to_epoch": 0
