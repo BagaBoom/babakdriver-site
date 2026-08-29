@@ -1,54 +1,73 @@
 {
   "engine_enabled": true,
   "interstitial_every_n_actions": 3,
-  "interstitial_min_interval_sec": 60,
-  "interstitial_min_watch_sec": 3,
-  "rewarded_min_watch_sec": 5,
+  "interstitial_min_interval_ms": 60000,
+  "interstitial_min_watch_ms": 5000,
+  "rewarded_min_watch_ms": 15000,
   "creatives": [
     {
-      "id": "sweet_bonanza_interstitial",
+      "id": "sweet_bonanza_interstitial_video",
       "format": "video",
       "placements": ["interstitial", "rewarded"],
-      "media_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-      "image_url": "https://placehold.co/720x1280/0A0A12/FFFFFF/png?text=Sweet+Bonanza",
+      "media_url": "https://babakdriver.xyz/house-ads/media/sweet_bonanza.mp4",
+      "image_url": "https://babakdriver.xyz/house-ads/media/sweet_bonanza_poster.jpg",
       "title": "Tower Rush: Sweet Bonanza",
-      "body": "Спробуй нову башту!",
-      "cta_text": "Грати",
+      "body": "Stack, match and win big!",
+      "cta_text": "Play",
       "bundle_id": "io.sweet.bonza.towerrush.play",
-      "store_url": "https://play.google.com/store/apps/details?id=io.sweet.bonza.towerrush.play",
-      "weight": 10,
-      "active_from_epoch": 0,
-      "active_to_epoch": 0
+      "weight": 1
     },
     {
-      "id": "sweet_bonanza_banner_1",
+      "id": "sweet_bonanza_interstitial_image",
       "format": "image",
-      "placements": ["banner"],
-      "media_url": "",
-      "image_url": "https://placehold.co/728x90/0A0A12/FFFFFF/png?text=Banner+1",
-      "title": "",
-      "body": "",
-      "cta_text": "Грати",
+      "placements": ["interstitial"],
+      "image_url": "https://babakdriver.xyz/house-ads/media/sweet_bonanza_full.jpg",
+      "title": "Tower Rush: Sweet Bonanza",
+      "body": "Stack, match and win big!",
+      "cta_text": "Play",
       "bundle_id": "io.sweet.bonza.towerrush.play",
-      "store_url": "https://play.google.com/store/apps/details?id=io.sweet.bonza.towerrush.play",
-      "weight": 1,
-      "active_from_epoch": 0,
-      "active_to_epoch": 0
+      "weight": 1
     },
     {
-      "id": "sweet_bonanza_banner_2",
+      "id": "sweet_bonanza_interstitial_text",
+      "format": "text",
+      "placements": ["interstitial"],
+      "title": "Tower Rush: Sweet Bonanza",
+      "body": "Stack, match and win big!",
+      "cta_text": "Play",
+      "bundle_id": "io.sweet.bonza.towerrush.play",
+      "weight": 1
+    },
+    {
+      "id": "sweet_bonanza_banner_video",
+      "format": "video",
+      "placements": ["banner"],
+      "media_url": "https://babakdriver.xyz/house-ads/media/sweet_bonanza.mp4",
+      "image_url": "https://babakdriver.xyz/house-ads/media/sweet_bonanza_poster.jpg",
+      "title": "Tower Rush: Sweet Bonanza",
+      "cta_text": "Play",
+      "bundle_id": "io.sweet.bonza.towerrush.play",
+      "weight": 1
+    },
+    {
+      "id": "sweet_bonanza_banner_image",
       "format": "image",
       "placements": ["banner"],
-      "media_url": "",
-      "image_url": "https://placehold.co/728x90/1A1A2E/FFFFFF/png?text=Banner+2",
-      "title": "",
-      "body": "",
-      "cta_text": "Грати",
+      "image_url": "https://babakdriver.xyz/house-ads/media/sweet_bonanza_banner.jpg",
+      "title": "Tower Rush: Sweet Bonanza",
+      "cta_text": "Play",
       "bundle_id": "io.sweet.bonza.towerrush.play",
-      "store_url": "https://play.google.com/store/apps/details?id=io.sweet.bonza.towerrush.play",
-      "weight": 1,
-      "active_from_epoch": 0,
-      "active_to_epoch": 0
+      "weight": 1
+    },
+    {
+      "id": "sweet_bonanza_banner_text",
+      "format": "text",
+      "placements": ["banner"],
+      "title": "Tower Rush: Sweet Bonanza",
+      "body": "Stack, match and win big!",
+      "cta_text": "Play",
+      "bundle_id": "io.sweet.bonza.towerrush.play",
+      "weight": 1
     }
   ]
 }
