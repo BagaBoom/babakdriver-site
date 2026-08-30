@@ -68,6 +68,29 @@
       "weight": 1
     },
     {
+  "id": "sweet_bonanza_interstitial_text_1",
+  "format": "text",
+  "placements": ["interstitial", "rewarded"],
+  "icon_url": "https://babakdriver.xyz/house-ads/media/icon.png",
+  "title": "Tower Rush: Sweet Bonanza",
+  "body": "Stack, match and win big!",
+  "cta_text": "Install",
+  "bundle_id": "io.sweet.bonza.towerrush.play",
+  "weight": 1
+},
+{
+  "id": "sweet_bonanza_interstitial_text_2",
+  "format": "text",
+  "placements": ["interstitial", "rewarded"],
+  "icon_url": "https://babakdriver.xyz/house-ads/media/icon.png",
+  "title": "Tower Rush: Sweet Bonanza",
+  "body": "Match candies, clear the board, climb the tower!",
+  "cta_text": "Install",
+  "bundle_id": "io.sweet.bonza.towerrush.play",
+  "weight": 1
+},
+    
+    {
       "id": "sweet_bonanza_banner_1",
       "format": "image",
       "placements": ["banner"],
@@ -99,6 +122,17 @@
       "cta_text": "Install",
       "bundle_id": "io.sweet.bonza.towerrush.play",
       "weight": 1
-    }
+    },
+    {
+  "id": "sweet_bonanza_banner_text_1",
+  "format": "text",
+  "placements": ["banner"],
+  "icon_url": "https://babakdriver.xyz/house-ads/media/icon.png",
+  "title": "Tower Rush: Sweet Bonanza",
+  "body": "Stack, match and win big!",
+  "cta_text": "Install",
+  "bundle_id": "io.sweet.bonza.towerrush.play",
+  "weight": 1
+}
   ]
 }
