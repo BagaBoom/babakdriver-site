@@ -9,26 +9,26 @@
       "id": "sweet_bonanza_video_1",
       "format": "video",
       "placements": ["interstitial", "rewarded"],
-      "media_url": "https://babakdriver.xyz/house-ads/twmedia/sweet_bonanza.mp4",
+      "media_url": "https://babakdriver.xyz/house-ads/twmedia/video_1.mp4",
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_1.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Official Towеr Online",
+      "body": "Build higher, time every move and reach the top!",
       "cta_text": "Install",
-      "bundle_id": "com.canadianhotel.guide",
+      "bundle_id": "com.reelcraft.offbeat",
       "weight": 1
     },
     {
       "id": "sweet_bonanza_video_2",
       "format": "video",
       "placements": ["interstitial", "rewarded"],
-      "media_url": "https://babakdriver.xyz/house-ads/twmedia/tower.mp4",
+      "media_url": "https://babakdriver.xyz/house-ads/twmedia/video_2.mp4",
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_2.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Official Towеr Online",
+      "body": "Stack your way to the top in an exciting tower challenge!",
       "cta_text": "Install",
-      "bundle_id": "com.canadianhotel.guide",
+      "bundle_id": "com.reelcraft.offbeat",
       "weight": 1
     },
     {
@@ -37,10 +37,10 @@
       "placements": ["interstitial", "rewarded"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_1.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Official Towеr Online",
+      "body": "Build your tower and test your timing skills!",
       "cta_text": "Install",
-      "bundle_id": "com.canadianhotel.guide",
+      "bundle_id": "com.reelcraft.offbeat",
       "weight": 1
     },
     {
@@ -49,10 +49,10 @@
       "placements": ["interstitial", "rewarded"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_2.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Official Towеr Online",
+      "body": "Perfect every move and climb higher with each round!",
       "cta_text": "Install",
-      "bundle_id": "com.canadianhotel.guide",
+      "bundle_id": "com.reelcraft.offbeat",
       "weight": 1
     },
     {
@@ -61,44 +61,44 @@
       "placements": ["interstitial", "rewarded"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_3.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Official Towеr Online",
+      "body": "Take on the tower challenge and aim for new heights!",
       "cta_text": "Install",
-      "bundle_id": "com.canadianhotel.guide",
+      "bundle_id": "com.reelcraft.offbeat",
       "weight": 1
     },
     {
-  "id": "sweet_bonanza_interstitial_text_1",
-  "format": "text",
-  "placements": ["interstitial", "rewarded"],
-  "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-  "title": "Official Tower Online",
-  "body": "Stack, match and win big!",
-  "cta_text": "Install",
-  "bundle_id": "com.canadianhotel.guide",
-  "weight": 1
-},
-{
-  "id": "sweet_bonanza_interstitial_text_2",
-  "format": "text",
-  "placements": ["interstitial", "rewarded"],
-  "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-  "title": "Official Tower Online",
-  "body": "Have a go at the real, authentic Tower",
-  "cta_text": "Install",
-  "bundle_id": "com.canadianhotel.guide",
-  "weight": 1
-},
-    
+      "id": "sweet_bonanza_interstitial_text_1",
+      "format": "text",
+      "placements": ["interstitial", "rewarded"],
+      "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
+      "title": "Official Towеr Online",
+      "body": "Stack, build and climb as high as you can!",
+      "cta_text": "Install",
+      "bundle_id": "com.reelcraft.offbeat",
+      "weight": 1
+    },
+    {
+      "id": "sweet_bonanza_interstitial_text_2",
+      "format": "text",
+      "placements": ["interstitial", "rewarded"],
+      "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
+      "title": "Official Towеr Online",
+      "body": "Experience the fast and exciting Tower challenge!",
+      "cta_text": "Install",
+      "bundle_id": "com.reelcraft.offbeat",
+      "weight": 1
+    },
     {
       "id": "sweet_bonanza_banner_1",
       "format": "image",
       "placements": ["banner"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/BannerAd_1.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
+      "title": "Official Towеr Online",
+      "body": "Build higher with every move!",
       "cta_text": "Install",
-      "bundle_id": "com.canadianhotel.guide",
+      "bundle_id": "com.reelcraft.offbeat",
       "weight": 1
     },
     {
@@ -107,9 +107,10 @@
       "placements": ["banner"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/BannerAd_2.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
+      "title": "Official Towеr Online",
+      "body": "Take on the tower challenge!",
       "cta_text": "Install",
-      "bundle_id": "com.canadianhotel.guide",
+      "bundle_id": "com.reelcraft.offbeat",
       "weight": 1
     },
     {
@@ -118,21 +119,22 @@
       "placements": ["banner"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/BannerAd_3.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
+      "title": "Official Towеr Online",
+      "body": "Stack perfectly and reach the top!",
       "cta_text": "Install",
-      "bundle_id": "com.canadianhotel.guide",
+      "bundle_id": "com.reelcraft.offbeat",
       "weight": 1
     },
     {
-  "id": "sweet_bonanza_banner_text_1",
-  "format": "text",
-  "placements": ["banner"],
-  "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-  "title": "Official Tower Online",
-  "body": "Stack, match and win big!",
-  "cta_text": "Install",
-  "bundle_id": "com.canadianhotel.guide",
-  "weight": 1
-}
+      "id": "sweet_bonanza_banner_text_1",
+      "format": "text",
+      "placements": ["banner"],
+      "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
+      "title": "Official Towеr Online",
+      "body": "Build, stack and climb to new heights!",
+      "cta_text": "Install",
+      "bundle_id": "com.reelcraft.offbeat",
+      "weight": 1
+    }
   ]
 }
