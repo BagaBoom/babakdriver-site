@@ -1,4 +1,11 @@
 {
+  "engine_enabled": true,
+  "interstitial_every_n_actions": 3,
+  "interstitial_min_interval_ms": 60000,
+  "interstitial_min_watch_ms": 5000,
+  "rewarded_min_watch_ms": 15000,
+  "creatives": [
+    {
       "id": "sweet_bonanza_video_1",
       "format": "video",
       "placements": [
@@ -156,3 +163,4 @@
       "weight": 1
     }
   ]
+}
