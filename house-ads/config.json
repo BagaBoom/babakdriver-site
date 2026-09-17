@@ -12,10 +12,10 @@
       "media_url": "https://babakdriver.xyz/house-ads/twmedia/video_1.mp4",
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_1.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Rush Game Online",
+      "body": "Rush, play and master every move!",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -25,10 +25,10 @@
       "media_url": "https://babakdriver.xyz/house-ads/twmedia/video_2.mp4",
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_2.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Rush Game Online",
+      "body": "Fast moves, quick fun and endless rush!",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -37,10 +37,10 @@
       "placements": ["interstitial", "rewarded"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_1.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Rush Game Online",
+      "body": "Rush, play and master every move!",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -49,10 +49,10 @@
       "placements": ["interstitial", "rewarded"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_2.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Rush Game Online",
+      "body": "Jump into the action with Rush Game Online!",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -61,10 +61,10 @@
       "placements": ["interstitial", "rewarded"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/Interstitial_3.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Rush Game Online",
+      "body": "Test your speed and enjoy the rush!",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -72,10 +72,10 @@
       "format": "text",
       "placements": ["interstitial", "rewarded"],
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Rush Game Online",
+      "body": "Fast moves, quick fun and endless rush!",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -83,10 +83,10 @@
       "format": "text",
       "placements": ["interstitial", "rewarded"],
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Have a go at the real, authentic Tower",
+      "title": "Rush Game Online",
+      "body": "Play Rush Game Online and master every challenge!",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -95,9 +95,9 @@
       "placements": ["banner"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/BannerAd_1.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
+      "title": "Rush Game Online",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -106,9 +106,9 @@
       "placements": ["banner"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/BannerAd_2.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
+      "title": "Rush Game Online",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -117,9 +117,9 @@
       "placements": ["banner"],
       "image_url": "https://babakdriver.xyz/house-ads/twmedia/BannerAd_3.png",
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
+      "title": "Rush Game Online",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     },
     {
@@ -127,10 +127,10 @@
       "format": "text",
       "placements": ["banner"],
       "icon_url": "https://babakdriver.xyz/house-ads/twmedia/icon.png",
-      "title": "Official Tower Online",
-      "body": "Stack, match and win big!",
+      "title": "Rush Game Online",
+      "body": "Fast action. Quick moves. Join the rush!",
       "cta_text": "Install",
-      "bundle_id": "com.reelcraft.offbeat",
+      "bundle_id": "com.seyii.blockblitz",
       "weight": 1
     }
   ]
